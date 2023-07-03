@@ -7,9 +7,9 @@ metadata:
     type: appserver
     author: intelliqit
 spec:
-  reolicas: 2
+  replicas: 3
   selector:
-    matchlabels:
+    matchLabels:
       type: appserver
   template:
     metadata:
